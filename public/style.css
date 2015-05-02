@@ -1,0 +1,170 @@
+@charset "utf-8";
+/*-----------------------------------------------------
+		General
+------------------------------------------------------*/
+a, a:link, a:visited, a:hover, a:active{
+	text-decoration:none;
+}
+
+*{    
+	padding:0px;
+	margin: 0px;
+	font-family: 'ShreeDev0714','Lucida Grande',Arial,Helvetica,Verdana,sans-serif;
+
+	text-align:center;
+	color:#333333;
+	font-size: 0;  /* inline-block 隙間対応*/
+	box-sizing: border-box;
+}
+
+/*-----------------------------------------------------
+		Tag
+------------------------------------------------------*/
+ul{
+	list-style:none;
+	font-size: 0em;  /* inline-block 隙間対応*/
+}
+
+li{
+	padding: 0px;
+	margin: 0px;
+
+	width: 100%;
+
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+/*-----------------------------------------------------
+		class
+------------------------------------------------------*/
+li p, .on, .off, .timer{
+	padding: 30px 0px;
+	margin: 0px;
+
+	display: inline-block;
+	font-size: xx-large;	/* inline-block 隙間対応*/
+	
+	color: #FFFFFF;
+
+}
+
+li p{
+	background-color: #6FC074;
+	width: 40%;
+}
+
+.on{
+	background-color: #FDAF6E;
+	width: 20%;
+}
+
+.off{
+	background-color: #7F9AFF;
+	width: 20%;
+}
+
+.timer{
+	background-color: #A4A4A4;
+	width: 10%;
+}
+
+/*-----------------------------------------------------
+		timer.erb
+------------------------------------------------------*/
+
+form{
+	display: inline-block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.title, .container{
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	vertical-align: top;
+}
+
+.title{
+	line-height: 220px;
+	width: 30%;
+	height: 220px;
+	background-color: #6FC074;
+	color: #FFFFFF;
+
+	font-size: xx-large;	/* inline-block 隙間対応*/
+}
+
+.container{
+	width: 70%;
+}
+
+
+
+.form1, .form2{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+
+	font-size: 0;  /* inline-block 隙間対応*/
+}
+
+.input1, .button1, .input2, .button2{
+	padding: 30px 0px;
+	margin: 0px;
+
+	height: 110px;
+
+	display: inline-block;
+	font-size: xx-large;	/* inline-block 隙間対応*/
+	
+	color: #FFFFFF;
+	background-color: #A4A4A4;
+}
+
+.input1, .input2{
+	padding-left: 30px;
+	text-align: left;
+
+	background-color: #FDAF6E;
+	width: 70%;
+}
+
+.input1 input{
+	width: 190px;
+	border: 0px;
+	color: #FFFFFF;
+	background-color: #FDAF6E;
+
+	font-size: xx-large;	/* inline-block 隙間対応*/
+
+}
+
+.input2 input{
+	padding: 0px 4px;
+	margin: 0px;
+
+	width: 2em;
+	height: 50px;
+
+	border: 0px;
+	color: #FFFFFF;
+	background-color: #FDAF6E;
+
+	font-size: xx-large;	/* inline-block 隙間対応*/
+}
+
+.button1, .button2{
+	padding: 30px;
+	margin: 0px;
+
+	border: 0px;
+	background-color: #7F9AFF;
+	width: 30%;
+
+}
